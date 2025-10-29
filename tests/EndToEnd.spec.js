@@ -77,12 +77,13 @@ test('End to End Coding', async ({browser})=>
         text = await dropDown.locator("button").nth(i).textContent();
         if(text === " India")
         {
-            dropDown.locator("button").nth(i).click();\
+            dropDown.locator("button").nth(i).click();
             break;
         }
     }
 
     await page.pause();
+
 
 
 });
