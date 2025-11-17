@@ -17,7 +17,7 @@ test("Practise", async ({browser})=>
     await signINBtn.click();
 
     await page.waitForLoadState('networkidle'); 
-    // wait for load all the titles of the products
+    //wait for load all the titles of the products
     //If not add this line to the code then in output you will get empty array.
     //This line may be flaky. So if it's not work use below method.
 
