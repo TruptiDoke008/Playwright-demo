@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+//test are run in serial mode if you want to run parallel mode need to give below command.
+test.describe.configure({mode:'parallel'}); //now test will run in parallel mode.
+
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
