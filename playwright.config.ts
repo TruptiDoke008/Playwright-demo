@@ -5,6 +5,7 @@ import { permission } from 'process';
 
 const config = ({
   testDir: './tests',
+  retires : 1, //fail test case retry once, handle flaky test cases. you can change the no. accordingly.
    timeout: 40*1000,   //explicitly give wait.
    expect: {
     timeout: 40*1000, //Timeout for assertion.
