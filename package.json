@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "Regression": "npx playwright test",
-    "WebTest": "npx playwright test ./tests/Basics --grep '@Web'",
-    "APITest": "npx playwright test ./tests/Basics --grep '@API'"
+    "WebTest": "npx playwright test ./tests/Basics --grep \"@Web\"",
+    "APITest": "npx playwright test ./tests/Basics --grep \"@API\""
   },
   "keywords": [],
   "author": "",
